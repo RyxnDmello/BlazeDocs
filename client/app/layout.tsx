@@ -1,35 +1,26 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 
-import { Roboto, Roboto_Flex } from "next/font/google";
+import { Poppins, Orbitron } from "next/font/google";
+
+import Navbar from "@components/Common/Navbar";
 
 import "./globals.css";
 
-const robotoSans = Roboto({
-  variable: "--roboto",
-  display: "swap",
+const poppins = Poppins({
+  variable: "--poppins",
   style: ["normal", "italic"],
-  subsets: ["latin", "greek"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const robotoFlex = Roboto_Flex({
-  variable: "--roboto-flex",
+const orbitron = Orbitron({
+  variable: "--orbitron",
+  style: "normal",
+  subsets: ["latin"],
   display: "swap",
-  style: ["normal"],
-  subsets: ["latin", "greek"],
-  weight: [
-    "100",
-    "200",
-    "300",
-    "400",
-    "500",
-    "600",
-    "700",
-    "800",
-    "900",
-    "1000",
-  ],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 interface RootLayoutProps {
@@ -44,9 +35,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body
-        className={`${robotoSans.variable} ${robotoFlex.variable} antialiased`}
-      >
+      <body className={`${poppins.variable} ${orbitron.variable} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>

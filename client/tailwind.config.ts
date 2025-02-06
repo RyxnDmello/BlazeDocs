@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: "var(--roboto)",
-        "roboto-flex": "var(--roboto-flex)",
+        poppins: "var(--poppins)",
+        orbitron: "var(--orbitron)",
       },
       colors: {
         background: "var(--background)",
