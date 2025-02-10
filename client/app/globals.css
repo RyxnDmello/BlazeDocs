@@ -12,6 +12,13 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+
+  .title-fade {
+    background: -webkit-linear-gradient(#fff, #ffffff50);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 body {

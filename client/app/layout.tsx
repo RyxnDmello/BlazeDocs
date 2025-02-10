@@ -36,7 +36,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${orbitron.variable} antialiased`}>
-        <Navbar />
         {children}
       </body>
     </html>
