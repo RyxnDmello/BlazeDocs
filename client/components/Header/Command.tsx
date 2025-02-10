@@ -21,7 +21,7 @@ export default function Command({ url, label }: CommandProps) {
 
   return (
     <div
-      className="group relative flex cursor-pointer items-center justify-center gap-1 opacity-40 selection:bg-transparent hover:opacity-65"
+      className="group relative flex cursor-pointer items-center justify-center gap-1 opacity-40 transition-opacity hover:opacity-65"
       onClick={toggleVisibility}
     >
       <PiFireSimple className="h-6 w-6" />

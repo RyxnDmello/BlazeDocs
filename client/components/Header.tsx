@@ -7,7 +7,7 @@ export default function Header() {
       <Navbar />
 
       <div className="grid cursor-default grid-cols-1 place-items-center gap-10">
-        <h1 className="title-fade pb-3 text-center text-[6.5rem] font-bold tracking-tighter">
+        <h1 className="title-fade text-center text-[6.5rem] font-semibold tracking-tighter">
           The Blazingly Fast CLI
         </h1>
 
