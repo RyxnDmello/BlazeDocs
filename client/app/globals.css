@@ -27,6 +27,13 @@ html {
     -webkit-background-clip: text;
     background-clip: text;
   }
+
+  .title-flame {
+    background: linear-gradient(to bottom, #ff6a00, #e66f00, #910303);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 body {

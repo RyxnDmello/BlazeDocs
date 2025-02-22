@@ -1,7 +1,7 @@
 import Feature from "./Opener/Feature";
 
 import {
-  FaGitAlt,
+  FaGit,
   FaRocket,
   FaServer,
   FaPalette,
@@ -26,7 +26,7 @@ export default function Features() {
         <Feature
           label="A CLI Powerhouse"
           icon={<FaTerminal className="opacity-50" size="2.25rem" />}
-          details="Blaze is a terminal-only tool designed to streamline development workflows with intuitive and powerful features."
+          details="Blaze is terminal focused and designed to streamline development workflows with intuitive and powerful features."
         />
 
         <Feature
@@ -37,7 +37,7 @@ export default function Features() {
 
         <Feature
           label="Stay in Sync with Git"
-          icon={<FaGitAlt className="opacity-50" size="2.25rem" />}
+          icon={<FaGit className="opacity-50" size="2.25rem" />}
           details="View your commit history, branches, and stash changes effortlessly with Blaze's Git integration."
         />
 
@@ -54,7 +54,7 @@ export default function Features() {
         />
 
         <Feature
-          label="Snip, Snap, Your Way"
+          label="Snip, Snap, and Zip"
           icon={<FaPalette className="opacity-50" size="2.25rem" />}
           details="Configure shortcuts, customize themes, and extend functionality to match your style with Blaze's flexible settings."
         />

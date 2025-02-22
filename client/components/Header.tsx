@@ -8,12 +8,12 @@ export default function Header() {
 
       <div className="grid cursor-default grid-cols-1 place-items-center gap-10">
         <h1 className="title-fade text-center text-[6.5rem] font-semibold tracking-tighter">
-          The Blazingly Fast CLI
+          The <span className="title-flame pr-1">Blazingly</span> Fast CLI
         </h1>
 
-        <p className="text-center text-2xl font-light tracking-tight text-[#ffffff50]">
+        <p className="text-center text-2xl font-light tracking-tight text-[#ffffff60]">
           A{" "}
-          <span className="text-white opacity-70">Command Line Interface</span>{" "}
+          <span className="text-white opacity-80">Command Line Interface</span>{" "}
           designed for developer productivity. <br />
           Experience a Code Editor and API Testing Suite directly in your
           terminal.

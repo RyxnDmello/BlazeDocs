@@ -8,7 +8,7 @@ interface FeatureProps {
 
 export default function Feature({ icon, label, details }: FeatureProps) {
   return (
-    <article className="group grid w-[350px] grid-cols-1 items-start justify-stretch gap-4 rounded-lg border border-[#ffffff25] hover:border-[#ffffff50] p-6">
+    <article className="group grid w-[350px] grid-cols-1 items-start justify-stretch gap-4 rounded-lg border border-[#ffffff25] p-6 transition-all hover:border-[#ffffff50]">
       {icon}
 
       <div className="grid grid-cols-1 items-start justify-start gap-1">
