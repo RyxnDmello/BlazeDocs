@@ -3,8 +3,6 @@ import type { Metadata } from "next";
 
 import { Poppins, Orbitron } from "next/font/google";
 
-import Navbar from "@components/Common/Navbar";
-
 import "./globals.css";
 
 const poppins = Poppins({

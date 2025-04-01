@@ -1,20 +1,19 @@
 import { FaGolang, FaWrench, FaGitAlt } from "react-icons/fa6";
+import { IoMdColorPalette } from "react-icons/io";
+import { GiSnake } from "react-icons/gi";
 
-import Box from "./Tools/Box";
 import Tool from "./Tools/Tool";
 
 export default function Tools() {
   return (
-    <section className="grid h-dvh cursor-default grid-cols-1 place-items-center items-start justify-start px-32 py-16">
+    <section className="relative grid h-dvh cursor-default grid-cols-1 place-items-center items-center">
       <h4 className="text-center text-6xl font-semibold tracking-tight">
         <span className="title-fade">The Ember Behind</span>{" "}
         <span className="title-flame">The Flame</span>
       </h4>
 
-      <div className="grid grid-cols-1 place-items-center items-center justify-center gap-10">
-        <Box />
-
-        <div className="grid grid-flow-col items-center justify-center gap-8">
+      <div className="grid grid-cols-1 place-items-center items-center justify-center gap-5">
+        <div className="flex flex-row place-items-center items-center justify-center gap-5">
           <Tool
             icon={
               <FaGolang
@@ -49,6 +48,32 @@ export default function Tools() {
             url="https://git-scm.com/"
             label="Git"
             description="Integrates real-time version control, allowing developers to track commits, manage branches, and view logs without leaving the terminal."
+          />
+        </div>
+
+        <div className="flex flex-row place-items-center items-center justify-center gap-5">
+          <Tool
+            icon={
+              <GiSnake
+                className="mb-[2.5rem] opacity-50 transition-all group-hover:text-white group-hover:opacity-100"
+                size="3rem"
+              />
+            }
+            url="https://git-scm.com/"
+            label="Viper"
+            description="With Viper, you can configure keymaps, appearance, and behavior effortlessly, ensuring the editor is adaptable to your development style and workflow."
+          />
+
+          <Tool
+            icon={
+              <IoMdColorPalette
+                className="mb-[2.5rem] opacity-50 transition-all group-hover:text-white group-hover:opacity-100"
+                size="3rem"
+              />
+            }
+            url="https://git-scm.com/"
+            label="Chroma"
+            description="A flexible syntax highlighter supporting multiple languages, providing clean and customizable code highlighting for a better development experience."
           />
         </div>
       </div>
