@@ -22,7 +22,7 @@ export default function Tool({ url, icon, label, description }: ToolProps) {
         {icon}
 
         <div className="flex items-center justify-start gap-1">
-          <h4 className="text-2xl font-semibold">{label}</h4>
+          <h4 className="text-2xl font-medium">{label}</h4>
           <FiArrowUpRight className="opacity-25" size="2rem" />
         </div>
 

@@ -23,7 +23,7 @@ export default function Tools() {
             }
             url="https://go.dev/"
             label="Golang"
-            description="Ensures high performance, efficiency, and concurrency, making CLI tools fast and lightweight while handling complex operations and tasks smoothly."
+            description="Ensures high performance, efficiency, and concurrency, making Blaze CLI fast and lightweight while handling complex operations and tasks smoothly."
           />
 
           <Tool
@@ -47,7 +47,7 @@ export default function Tools() {
             }
             url="https://git-scm.com/"
             label="Git"
-            description="Integrates real-time version control, allowing developers to track commits, manage branches, and view logs without leaving the terminal."
+            description="With version control directly integrated into Blaze, developers can easily track commits, manage branches, and view logs without leaving the editor."
           />
         </div>
 
@@ -61,7 +61,7 @@ export default function Tools() {
             }
             url="https://git-scm.com/"
             label="Viper"
-            description="With Viper, you can configure keymaps, appearance, and behavior effortlessly, ensuring the editor is adaptable to your development style and workflow."
+            description="With Viper, you can configure keymaps, behavior, and appearance effortlessly, ensuring the editor is adaptable to your development style and workflow."
           />
 
           <Tool
@@ -73,7 +73,7 @@ export default function Tools() {
             }
             url="https://git-scm.com/"
             label="Chroma"
-            description="A flexible syntax highlighter supporting multiple languages, providing clean and customizable code highlighting for a better development experience."
+            description="A flexible syntax highlighter supporting multiple languages, providing clean and customizable highlighting for a better development experience."
           />
         </div>
       </div>

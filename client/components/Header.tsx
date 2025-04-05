@@ -8,7 +8,7 @@ export default function Header() {
 
       <div className="grid cursor-default grid-cols-1 place-items-center gap-10">
         <h1 className="title-fade text-center text-[6.5rem] font-semibold tracking-tighter">
-          The <span className="title-flame pr-1">Blazingly</span> Fast CLI
+          The <span className="title-flame pr-1">Blazing</span> Fast CLI
         </h1>
 
         <p className="text-center text-2xl font-light tracking-tight text-[#ffffff60]">
